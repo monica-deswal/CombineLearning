@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		273A6F502968038400B52B4D /* ChallengeTheLearnings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A6F4F2968038400B52B4D /* ChallengeTheLearnings.swift */; };
 		273A6F52296835FA00B52B4D /* AppendOperatorsPart6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A6F51296835FA00B52B4D /* AppendOperatorsPart6.swift */; };
+		273A6F5429684FF800B52B4D /* SequenceOperators7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A6F5329684FF800B52B4D /* SequenceOperators7.swift */; };
 		27A48C7E2965AB0900E33860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48C7D2965AB0900E33860 /* AppDelegate.swift */; };
 		27A48C802965AB0900E33860 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48C7F2965AB0900E33860 /* SceneDelegate.swift */; };
 		27A48C822965AB0900E33860 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48C812965AB0900E33860 /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 /* Begin PBXFileReference section */
 		273A6F4F2968038400B52B4D /* ChallengeTheLearnings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTheLearnings.swift; sourceTree = "<group>"; };
 		273A6F51296835FA00B52B4D /* AppendOperatorsPart6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendOperatorsPart6.swift; sourceTree = "<group>"; };
+		273A6F5329684FF800B52B4D /* SequenceOperators7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceOperators7.swift; sourceTree = "<group>"; };
 		27A48C7A2965AB0900E33860 /* Combine_Part1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Combine_Part1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A48C7D2965AB0900E33860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27A48C7F2965AB0900E33860 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				27A48CB52965E63D00E33860 /* FilteringOperatorPart5.swift */,
 				273A6F4F2968038400B52B4D /* ChallengeTheLearnings.swift */,
 				273A6F51296835FA00B52B4D /* AppendOperatorsPart6.swift */,
+				273A6F5329684FF800B52B4D /* SequenceOperators7.swift */,
 			);
 			path = "Basic Learning";
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				27A48C7E2965AB0900E33860 /* AppDelegate.swift in Sources */,
 				27A48CB42965C73F00E33860 /* TransformationOperatorPart4.swift in Sources */,
 				273A6F502968038400B52B4D /* ChallengeTheLearnings.swift in Sources */,
+				273A6F5429684FF800B52B4D /* SequenceOperators7.swift in Sources */,
 				27A48C802965AB0900E33860 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
