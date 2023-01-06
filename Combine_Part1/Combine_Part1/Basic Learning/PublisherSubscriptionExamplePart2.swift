@@ -8,6 +8,7 @@
 import Foundation
 import Combine
 
+//MARK: Created the subscriber
 class StringSubsriber: Subscriber {
   
     typealias Input = String
@@ -29,8 +30,10 @@ class StringSubsriber: Subscriber {
     }
 }
 
+
+//MARK: loops through the values with the help of subscriber
 struct PublisherSubscriptionExample_Part2 {
-    
+
     func subscriberExample1() {
         
         let publisher = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"].publisher
@@ -38,6 +41,10 @@ struct PublisherSubscriptionExample_Part2 {
         let subscriber = StringSubsriber()
         
         publisher.subscribe(subscriber)
+        
+        _ = publisher.sink {
+            print($0)
+        }
         
     }
 }

@@ -60,8 +60,8 @@ struct Subjects_Part3 {
         
         let cancellableSubscriber = subject.sink { _ in
             print("")
-        } receiveValue: { val in
-            print("")
+        } receiveValue: {
+            print($0)
         }
         
         cancellableSubscriber.cancel()
