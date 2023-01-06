@@ -76,13 +76,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		273A6F4E2968035D00B52B4D /* Basic Learning */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Basic Learning";
-			sourceTree = "<group>";
-		};
 		27A48C712965AB0900E33860 = {
 			isa = PBXGroup;
 			children = (
@@ -106,7 +99,6 @@
 		27A48C7C2965AB0900E33860 /* Combine_Part1 */ = {
 			isa = PBXGroup;
 			children = (
-				273A6F4E2968035D00B52B4D /* Basic Learning */,
 				27A48C7D2965AB0900E33860 /* AppDelegate.swift */,
 				27A48C7F2965AB0900E33860 /* SceneDelegate.swift */,
 				27A48C812965AB0900E33860 /* ViewController.swift */,
