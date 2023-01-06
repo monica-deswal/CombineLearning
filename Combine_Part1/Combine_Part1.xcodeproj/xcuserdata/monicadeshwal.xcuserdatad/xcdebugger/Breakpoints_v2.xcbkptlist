@@ -18,38 +18,6 @@
             endingLineNumber = "45"
             landmarkName = "mapKeyPathOperator()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "3492BAB3-F406-47B3-A785-A5547A2A6600 - dff22769a0c2045"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Combine_Part1.TransformationOperatorPart4.mapKeyPathOperator() -&gt; ()"
-                  moduleName = "Combine_Part1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/monicadeshwal/Documents/MY-GIT/Learning-Combine/Combine_Part1/Combine_Part1/Basic%20Learning/TransformationOperatorPart4.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "45"
-                  endingLineNumber = "45"
-                  offsetFromSymbolStart = "174">
-               </Location>
-               <Location
-                  uuid = "3492BAB3-F406-47B3-A785-A5547A2A6600 - f430d69876f488aa"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Int, Swift.Int) -&gt; () in Combine_Part1.TransformationOperatorPart4.mapKeyPathOperator() -&gt; ()"
-                  moduleName = "Combine_Part1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/monicadeshwal/Documents/MY-GIT/Learning-Combine/Combine_Part1/Combine_Part1/Basic%20Learning/TransformationOperatorPart4.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "58">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

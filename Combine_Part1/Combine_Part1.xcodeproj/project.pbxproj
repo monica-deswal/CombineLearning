@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		273A6F602968636400B52B4D /* SequenceOperators7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A6F582968636400B52B4D /* SequenceOperators7.swift */; };
+		273A6F612968636400B52B4D /* PublisherSubscriptionExamplePart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A6F592968636400B52B4D /* PublisherSubscriptionExamplePart2.swift */; };
+		273A6F622968636400B52B4D /* ChallengeTheLearnings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A6F5A2968636400B52B4D /* ChallengeTheLearnings.swift */; };
+		273A6F632968636400B52B4D /* SubjectsPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A6F5B2968636400B52B4D /* SubjectsPart3.swift */; };
+		273A6F642968636400B52B4D /* Notification_Part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A6F5C2968636400B52B4D /* Notification_Part1.swift */; };
+		273A6F652968636400B52B4D /* TransformationOperatorPart4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A6F5D2968636400B52B4D /* TransformationOperatorPart4.swift */; };
+		273A6F662968636400B52B4D /* AppendOperatorsPart6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A6F5E2968636400B52B4D /* AppendOperatorsPart6.swift */; };
+		273A6F672968636400B52B4D /* FilteringOperatorPart5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A6F5F2968636400B52B4D /* FilteringOperatorPart5.swift */; };
 		27A48C7E2965AB0900E33860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48C7D2965AB0900E33860 /* AppDelegate.swift */; };
 		27A48C802965AB0900E33860 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48C7F2965AB0900E33860 /* SceneDelegate.swift */; };
 		27A48C822965AB0900E33860 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48C812965AB0900E33860 /* ViewController.swift */; };
@@ -36,6 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		273A6F582968636400B52B4D /* SequenceOperators7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceOperators7.swift; sourceTree = "<group>"; };
+		273A6F592968636400B52B4D /* PublisherSubscriptionExamplePart2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublisherSubscriptionExamplePart2.swift; sourceTree = "<group>"; };
+		273A6F5A2968636400B52B4D /* ChallengeTheLearnings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeTheLearnings.swift; sourceTree = "<group>"; };
+		273A6F5B2968636400B52B4D /* SubjectsPart3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectsPart3.swift; sourceTree = "<group>"; };
+		273A6F5C2968636400B52B4D /* Notification_Part1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification_Part1.swift; sourceTree = "<group>"; };
+		273A6F5D2968636400B52B4D /* TransformationOperatorPart4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformationOperatorPart4.swift; sourceTree = "<group>"; };
+		273A6F5E2968636400B52B4D /* AppendOperatorsPart6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppendOperatorsPart6.swift; sourceTree = "<group>"; };
+		273A6F5F2968636400B52B4D /* FilteringOperatorPart5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilteringOperatorPart5.swift; sourceTree = "<group>"; };
 		27A48C7A2965AB0900E33860 /* Combine_Part1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Combine_Part1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A48C7D2965AB0900E33860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27A48C7F2965AB0900E33860 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,11 +92,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		273A6F4E2968035D00B52B4D /* Basic Learning */ = {
+		273A6F572968635500B52B4D /* Basics */ = {
 			isa = PBXGroup;
 			children = (
+				273A6F5E2968636400B52B4D /* AppendOperatorsPart6.swift */,
+				273A6F5A2968636400B52B4D /* ChallengeTheLearnings.swift */,
+				273A6F5F2968636400B52B4D /* FilteringOperatorPart5.swift */,
+				273A6F5C2968636400B52B4D /* Notification_Part1.swift */,
+				273A6F592968636400B52B4D /* PublisherSubscriptionExamplePart2.swift */,
+				273A6F582968636400B52B4D /* SequenceOperators7.swift */,
+				273A6F5B2968636400B52B4D /* SubjectsPart3.swift */,
+				273A6F5D2968636400B52B4D /* TransformationOperatorPart4.swift */,
 			);
-			path = "Basic Learning";
+			path = Basics;
 			sourceTree = "<group>";
 		};
 		27A48C712965AB0900E33860 = {
@@ -106,7 +130,7 @@
 		27A48C7C2965AB0900E33860 /* Combine_Part1 */ = {
 			isa = PBXGroup;
 			children = (
-				273A6F4E2968035D00B52B4D /* Basic Learning */,
+				273A6F572968635500B52B4D /* Basics */,
 				27A48C7D2965AB0900E33860 /* AppDelegate.swift */,
 				27A48C7F2965AB0900E33860 /* SceneDelegate.swift */,
 				27A48C812965AB0900E33860 /* ViewController.swift */,
@@ -267,8 +291,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				27A48C822965AB0900E33860 /* ViewController.swift in Sources */,
+				273A6F642968636400B52B4D /* Notification_Part1.swift in Sources */,
+				273A6F622968636400B52B4D /* ChallengeTheLearnings.swift in Sources */,
+				273A6F632968636400B52B4D /* SubjectsPart3.swift in Sources */,
+				273A6F652968636400B52B4D /* TransformationOperatorPart4.swift in Sources */,
+				273A6F662968636400B52B4D /* AppendOperatorsPart6.swift in Sources */,
+				273A6F612968636400B52B4D /* PublisherSubscriptionExamplePart2.swift in Sources */,
 				27A48C7E2965AB0900E33860 /* AppDelegate.swift in Sources */,
+				273A6F602968636400B52B4D /* SequenceOperators7.swift in Sources */,
 				27A48C802965AB0900E33860 /* SceneDelegate.swift in Sources */,
+				273A6F672968636400B52B4D /* FilteringOperatorPart5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
