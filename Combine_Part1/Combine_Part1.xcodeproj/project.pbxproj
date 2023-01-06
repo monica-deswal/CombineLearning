@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		273A6F742968838C00B52B4D /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A6F722968838C00B52B4D /* PostModel.swift */; };
+		273A6F752968838C00B52B4D /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273A6F732968838C00B52B4D /* WebService.swift */; };
 		27A48C7E2965AB0900E33860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48C7D2965AB0900E33860 /* AppDelegate.swift */; };
 		27A48C802965AB0900E33860 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48C7F2965AB0900E33860 /* SceneDelegate.swift */; };
 		27A48C822965AB0900E33860 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A48C812965AB0900E33860 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		273A6F722968838C00B52B4D /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		273A6F732968838C00B52B4D /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		27A48C7A2965AB0900E33860 /* Combine_Part1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Combine_Part1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A48C7D2965AB0900E33860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27A48C7F2965AB0900E33860 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		273A6F712968837700B52B4D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				273A6F722968838C00B52B4D /* PostModel.swift */,
+				273A6F732968838C00B52B4D /* WebService.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		27A48C712965AB0900E33860 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +112,7 @@
 		27A48C7C2965AB0900E33860 /* Combine_Part1 */ = {
 			isa = PBXGroup;
 			children = (
+				273A6F712968837700B52B4D /* New Group */,
 				27A48C7D2965AB0900E33860 /* AppDelegate.swift */,
 				27A48C7F2965AB0900E33860 /* SceneDelegate.swift */,
 				27A48C812965AB0900E33860 /* ViewController.swift */,
@@ -259,7 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				27A48C822965AB0900E33860 /* ViewController.swift in Sources */,
+				273A6F742968838C00B52B4D /* PostModel.swift in Sources */,
 				27A48C7E2965AB0900E33860 /* AppDelegate.swift in Sources */,
+				273A6F752968838C00B52B4D /* WebService.swift in Sources */,
 				27A48C802965AB0900E33860 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
