@@ -26,6 +26,8 @@ struct SequenceOperators7 {
             }
     }
     
+    //MARK: The first operator group allows us to obtain the first element of a sequence.
+    //MARK: In this we will get the last one
     func firstAndLastOperator() {
         let publisher = ["A", "B", "C", "D"].publisher
         
@@ -45,6 +47,7 @@ struct SequenceOperators7 {
             }
     }
     
+    //MARK: Output operator obtains a certain element at the specified index.
     func outputAtOperator() {
         let publisher = ["A", "B", "C", "D"].publisher
         
@@ -59,6 +62,7 @@ struct SequenceOperators7 {
             }
     }
     
+    //MARK: Count operator returns the number of published values of a sequence
     func countOperator() {
         let publisher = ["A", "B", "C", "D"].publisher
         let publisher1 = PassthroughSubject<Int, Never>()
@@ -81,6 +85,7 @@ struct SequenceOperators7 {
         publisher1.send(completion: .finished)
     }
     
+    //MARK: The .contains operator returns true or false depending wheather a particular element was found in a sequence
     func containsOperator() {
         let publisher = ["A", "B", "C", "D"].publisher
         
@@ -90,6 +95,7 @@ struct SequenceOperators7 {
             }
     }
     
+    //MARK: Similar to the previous .contains operator this will return a BOOL value. However, if returns true only if every single element satisifies the provided condition
     func allSatisfyOperator() {
         let publisher = [1,2,3,4,5,6,7].publisher
         
@@ -99,6 +105,7 @@ struct SequenceOperators7 {
             }
     }
     
+    //MARK: The last operator,. reduce provides a powerful mechanism for accumulating the elements of a sequence and returning a final value upon completion.
     func reduceOperator() {
         let publisher = [1,2,3,4,5,6].publisher
         
