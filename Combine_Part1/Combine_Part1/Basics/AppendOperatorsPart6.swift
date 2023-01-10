@@ -11,6 +11,7 @@ import UIKit
 
 class AppendOperatorsPart6 {
     
+    //MARK: A publisher that prefixes the sequence of elements prior to the publishers ellements
     func prependOperator() {
         let numbers = (1...5).publisher
         
@@ -37,6 +38,7 @@ class AppendOperatorsPart6 {
             }
     }
     
+    //MARK: A publisher that appends the appending publisher's elements after this publishers elements.
     func appendOperator() {
         let numbers = (1...10).publisher
         
@@ -56,6 +58,7 @@ class AppendOperatorsPart6 {
             }
     }
     
+    //MARK: SwitchToLatest is a powerful operator to avoid unnecessary background work and confusing app behavior by always subscribing to the latest and most up to date request for work to be done asynchronously
     func switchToLatest() {
         let publisher1 = PassthroughSubject<String, Never>()
         let publisher2 = PassthroughSubject<String, Never>()
@@ -117,7 +120,7 @@ class AppendOperatorsPart6 {
             .eraseToAnyPublisher()
     }
     
-    
+    //Merge operator combines elements from this publisher with those from the two other publishers, delivering an interleaved sequence of elements.
     func mergeOperator() {
         let publisher1 = PassthroughSubject<Int, Never>()
         let publisher2 = PassthroughSubject<Int, Never>()
@@ -134,6 +137,26 @@ class AppendOperatorsPart6 {
         
     }
     
+    func mergeOperatorExample2() {
+        let pubA = PassthroughSubject<Int, Never>()
+        let pubB = PassthroughSubject<Int, Never>()
+        let pubC = PassthroughSubject<Int, Never>()
+
+        let cancellable = pubA
+            .merge(with: pubB, pubC)
+            .sink { print("\($0)", terminator: " " )}
+
+        pubA.send(1)
+        pubB.send(40)
+        pubC.send(90)
+        pubA.send(2)
+        pubB.send(50)
+        pubC.send(100)
+        
+    //Prints: "1 40 90 2 50 100"
+    }
+    
+    //MARK: Subscribes to an additional publisher and publishes a tuple upon receiving output from either publisher
     func combineLatestOperator() {
         let publisher1 = PassthroughSubject<Int, Never>()
         let publisher2 = PassthroughSubject<String, Never>()
@@ -147,6 +170,29 @@ class AppendOperatorsPart6 {
         publisher2.send("A")
         publisher2.send("B")
     }
+    
+    func combineLatestExample2() {
+        let pub1 = PassthroughSubject<Int, Never>()
+        let pub2 = PassthroughSubject<Int, Never>()
+
+        let cancellable = pub1
+            .combineLatest(pub2)
+            .sink { print("Result: \($0).") }
+
+        pub1.send(1)
+        pub1.send(2)
+        pub2.send(2)
+        pub1.send(3)
+        pub1.send(45)
+        pub2.send(22)
+
+        // Prints:
+        //    Result: (2, 2).    // pub1 latest = 2, pub2 latest = 2
+        //    Result: (3, 2).    // pub1 latest = 3, pub2 latest = 2
+        //    Result: (45, 2).   // pub1 latest = 45, pub2 latest = 2
+        //    Result: (45, 22).  // pub1 latest = 45, pub2 latest = 22
+    }
+    
     
     func zipOperator() {
         let publisher1 = PassthroughSubject<Int, Never>()
